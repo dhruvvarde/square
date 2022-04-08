@@ -1,0 +1,188 @@
+PODS:
+  - AppAuth (1.5.0):
+    - AppAuth/Core (= 1.5.0)
+    - AppAuth/ExternalUserAgent (= 1.5.0)
+  - AppAuth/Core (1.5.0)
+  - AppAuth/ExternalUserAgent (1.5.0):
+    - AppAuth/Core
+  - connectivity (0.0.1):
+    - Flutter
+    - Reachability
+  - device_info_plus (0.0.1):
+    - Flutter
+  - Firebase/CoreOnly (8.14.0):
+    - FirebaseCore (= 8.14.0)
+  - firebase_core (1.14.0):
+    - Firebase/CoreOnly (= 8.14.0)
+    - Flutter
+  - FirebaseCore (8.14.0):
+    - FirebaseCoreDiagnostics (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Logger (~> 7.7)
+  - FirebaseCoreDiagnostics (8.14.0):
+    - GoogleDataTransport (~> 9.1)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Logger (~> 7.7)
+    - nanopb (~> 2.30908.0)
+  - Flutter (1.0.0)
+  - flutter_inappwebview (0.0.1):
+    - Flutter
+    - flutter_inappwebview/Core (= 0.0.1)
+    - OrderedSet (~> 5.0)
+  - flutter_inappwebview/Core (0.0.1):
+    - Flutter
+    - OrderedSet (~> 5.0)
+  - flutter_keyboard_visibility (0.0.1):
+    - Flutter
+  - fluttertoast (0.0.2):
+    - Flutter
+    - Toast
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - google_sign_in (0.0.1):
+    - Flutter
+    - GoogleSignIn (~> 5.0)
+  - GoogleDataTransport (9.1.2):
+    - GoogleUtilities/Environment (~> 7.2)
+    - nanopb (~> 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleSignIn (5.0.2):
+    - AppAuth (~> 1.2)
+    - GTMAppAuth (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleUtilities/Environment (7.7.0):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.7.0):
+    - GoogleUtilities/Environment
+  - GTMAppAuth (1.2.3):
+    - AppAuth/Core (~> 1.4)
+    - GTMSessionFetcher/Core (~> 1.5)
+  - GTMSessionFetcher/Core (1.7.1)
+  - nanopb (2.30908.0):
+    - nanopb/decode (= 2.30908.0)
+    - nanopb/encode (= 2.30908.0)
+  - nanopb/decode (2.30908.0)
+  - nanopb/encode (2.30908.0)
+  - OrderedSet (5.0.0)
+  - path_provider_ios (0.0.1):
+    - Flutter
+  - "permission_handler (5.1.0+2)":
+    - Flutter
+  - PromisesObjC (2.0.0)
+  - Reachability (3.2)
+  - shared_preferences_ios (0.0.1):
+    - Flutter
+  - sqflite (0.0.2):
+    - Flutter
+    - FMDB (>= 2.7.5)
+  - square_reader_sdk (3.0.0):
+    - Flutter
+  - Toast (4.0.0)
+  - video_player_avfoundation (0.0.1):
+    - Flutter
+  - wakelock (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - connectivity (from `.symlinks/plugins/connectivity/ios`)
+  - device_info_plus (from `.symlinks/plugins/device_info_plus/ios`)
+  - firebase_core (from `.symlinks/plugins/firebase_core/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_inappwebview (from `.symlinks/plugins/flutter_inappwebview/ios`)
+  - flutter_keyboard_visibility (from `.symlinks/plugins/flutter_keyboard_visibility/ios`)
+  - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
+  - google_sign_in (from `.symlinks/plugins/google_sign_in/ios`)
+  - path_provider_ios (from `.symlinks/plugins/path_provider_ios/ios`)
+  - permission_handler (from `.symlinks/plugins/permission_handler/ios`)
+  - shared_preferences_ios (from `.symlinks/plugins/shared_preferences_ios/ios`)
+  - sqflite (from `.symlinks/plugins/sqflite/ios`)
+  - square_reader_sdk (from `.symlinks/plugins/square_reader_sdk/ios`)
+  - video_player_avfoundation (from `.symlinks/plugins/video_player_avfoundation/ios`)
+  - wakelock (from `.symlinks/plugins/wakelock/ios`)
+
+SPEC REPOS:
+  trunk:
+    - AppAuth
+    - Firebase
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FMDB
+    - GoogleDataTransport
+    - GoogleSignIn
+    - GoogleUtilities
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - nanopb
+    - OrderedSet
+    - PromisesObjC
+    - Reachability
+    - Toast
+
+EXTERNAL SOURCES:
+  connectivity:
+    :path: ".symlinks/plugins/connectivity/ios"
+  device_info_plus:
+    :path: ".symlinks/plugins/device_info_plus/ios"
+  firebase_core:
+    :path: ".symlinks/plugins/firebase_core/ios"
+  Flutter:
+    :path: Flutter
+  flutter_inappwebview:
+    :path: ".symlinks/plugins/flutter_inappwebview/ios"
+  flutter_keyboard_visibility:
+    :path: ".symlinks/plugins/flutter_keyboard_visibility/ios"
+  fluttertoast:
+    :path: ".symlinks/plugins/fluttertoast/ios"
+  google_sign_in:
+    :path: ".symlinks/plugins/google_sign_in/ios"
+  path_provider_ios:
+    :path: ".symlinks/plugins/path_provider_ios/ios"
+  permission_handler:
+    :path: ".symlinks/plugins/permission_handler/ios"
+  shared_preferences_ios:
+    :path: ".symlinks/plugins/shared_preferences_ios/ios"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/ios"
+  square_reader_sdk:
+    :path: ".symlinks/plugins/square_reader_sdk/ios"
+  video_player_avfoundation:
+    :path: ".symlinks/plugins/video_player_avfoundation/ios"
+  wakelock:
+    :path: ".symlinks/plugins/wakelock/ios"
+
+SPEC CHECKSUMS:
+  AppAuth: 80317d99ac7ff2801a2f18ff86b48cd315ed465d
+  connectivity: c4130b2985d4ef6fd26f9702e886bd5260681467
+  device_info_plus: e5c5da33f982a436e103237c0c85f9031142abed
+  Firebase: 7e8fe528c161b9271d365217a74c16aaf834578e
+  firebase_core: b0b382f1497ab407aceb25e41e3036c8798c1609
+  FirebaseCore: b84a44ee7ba999e0f9f76d198a9c7f60a797b848
+  FirebaseCoreDiagnostics: fd0c8490f34287229c1d6c103d3a55f81ec85712
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  flutter_inappwebview: bfd58618f49dc62f2676de690fc6dcda1d6c3721
+  flutter_keyboard_visibility: 0339d06371254c3eb25eeb90ba8d17dca8f9c069
+  fluttertoast: 16fbe6039d06a763f3533670197d01fc73459037
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  google_sign_in: f669f45933dad48cd218dc3e189726bced3d19f4
+  GoogleDataTransport: 629c20a4d363167143f30ea78320d5a7eb8bd940
+  GoogleSignIn: 7137d297ddc022a7e0aa4619c86d72c909fa7213
+  GoogleUtilities: e0913149f6b0625b553d70dae12b49fc62914fd1
+  GTMAppAuth: 987526d41b07efb1bedda5e936fe0cb718a03113
+  GTMSessionFetcher: 4577a4cc914a5a07c40a8a0ad0acc22080418c2d
+  nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
+  OrderedSet: aaeb196f7fef5a9edf55d89760da9176ad40b93c
+  path_provider_ios: 14f3d2fd28c4fdb42f44e0f751d12861c43cee02
+  permission_handler: ccb20a9fad0ee9b1314a52b70b76b473c5f8dab0
+  PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  shared_preferences_ios: 548a61f8053b9b8a49ac19c1ffbc8b92c50d68ad
+  sqflite: 6d358c025f5b867b29ed92fc697fd34924e11904
+  square_reader_sdk: c180851c81247aed31ef44b8b7d756b12232e078
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  video_player_avfoundation: e489aac24ef5cf7af82702979ed16f2a5ef84cff
+  wakelock: d0fc7c864128eac40eba1617cb5264d9c940b46f
+
+PODFILE CHECKSUM: 207e7dde5ad04a4de224f260d3e19c079920127f
+
+COCOAPODS: 1.11.3
